@@ -91,7 +91,7 @@ cargo test --release -p lightcraft-pipeline -p lightcraft-gpu --test medium_grai
 `cargo xtask ci` passed all eight gates on macOS arm64 with Rust 1.97.1: formatting,
 strict workspace/all-targets Clippy, optional HEIF build/tests, workspace tests, parity
 references, layering, assets and all 29 WASM package checks. Workspace summaries counted
-4,142 passed, zero failed and 35 ignored tests across 113 test/doc-test groups. The CI
+4,186 passed, zero failed and 35 ignored tests across 115 test/doc-test groups. The CI
 report additionally records 165 availability skips (137 corpus, 20 fonts and eight model);
 these tests return successfully without performing their unavailable checks. Metal GPU
 was available; the grain GPU-eligibility tests did not availability-skip. WASM validation
